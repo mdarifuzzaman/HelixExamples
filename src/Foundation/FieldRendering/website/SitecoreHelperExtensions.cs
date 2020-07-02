@@ -53,7 +53,8 @@ namespace BasicCompany.Foundation.FieldRendering
 
 		public static string ItemUrl(this SitecoreHelper sitecoreHelper, Item item)
         {
-            return LinkManager.GetItemUrl(item);
+            var url = LinkManager.GetItemUrl(item);
+            return url;
         }
     }
 }

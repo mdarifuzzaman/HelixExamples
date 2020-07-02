@@ -3,3 +3,26 @@
 ################################################################################
 
 /.vs/BasicCompany/v16/Server/sqlite3
+/src/Environment/Website/obj
+/src/Environment/Website/bin
+/src/Feature/BasicContent/website/bin
+/src/Feature/BasicContent/website/obj/Debug
+/src/Feature/BasicContent/website/obj
+/src/Feature/Navigation/tests/bin/Debug
+/src/Feature/Navigation/website/bin
+/src/Feature/Products/tests/bin/Debug
+/src/Feature/Products/website/bin
+/src/Feature/Products/website/obj/Debug
+/src/Feature/Products/website/obj
+/src/Feature/Services/website/bin
+/src/Feature/Services/website/obj/Debug
+/src/Feature/Services/website/obj
+/src/Foundation/FieldRendering/website/bin
+/src/Foundation/FieldRendering/website/obj/Debug
+/src/Foundation/Multisite/website/bin
+/src/Foundation/Serialization/website/bin
+/src/Project/BasicCompany/website/bin
+/packages
+/src/Feature/Blogs/website/bin
+/src/Feature/Blogs/website/obj
+/src/Foundation/FieldRendering/website/obj

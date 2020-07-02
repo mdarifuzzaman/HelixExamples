@@ -1,0 +1,21 @@
+﻿
+@model IEnumerable<Sitecore.Data.Items.Item>
+@using BasicCompany.Foundation.FieldRendering
+@using Sitecore.Mvc
+
+@{
+    var blogImageOptions = new Sitecore.Resources.Media.MediaUrlOptions
+    {
+        MaxWidth = 480,
+        AllowStretch = false,
+    };
+}
+
+<div class="container">
+    <div class="product-list-columns columns is-multiline">
+        @foreach (var blog in Model)
+        {
+            @Html.Partial("../Blogs/_ListBlog", blog)
+        }
+    </div>
+</div>
